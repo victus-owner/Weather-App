@@ -113,7 +113,7 @@ body{
 
 @media (max-width: 460px) {
     body {
-        margin-top: 50%;
+        margin-top: 25vmin;
     }
     .cart {
         flex-direction: column;
