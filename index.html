@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="cart">
+        <div class="search">
+            <input type="search" id="search" spellcheck="true"
+                placeholder="Enter city name then Enter or click search icon">
+            <button><img src="https://cdn-icons-png.flaticon.com/128/2570/2570805.png" alt="search-icon"></button>
+
+        </div>
+        <div class="weather-icon">
+            <img id="weather-icon" src="https://cdn-icons-png.flaticon.com/128/4643/4643191.png" alt="weather-icon">
+        </div>
+        <div class="weather-info">
+            <p id="error-message"></p>
+            <h1 id="temperature">24°C</h1>
+            <h2 id="city">Indore</h2>
+
+            <div class="weather-detail">
+                <div class="column">
+                    <img src="https://cdn-icons-png.flaticon.com/128/8923/8923419.png" alt="humidity-icon">
+                    <p id="humidity">90 % </p>
+                    <p>Humidity</p>
+                </div>
+
+                <div class="column">
+                    <img src="https://cdn-icons-png.flaticon.com/128/3504/3504879.png" alt="wind">
+                    <p id="wind">6 m/s</p>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+        <div class="made-by">
+            <p>Made ♡ By ASHISH PRAJAPATI </p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
